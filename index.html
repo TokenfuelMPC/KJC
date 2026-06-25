@@ -152,11 +152,14 @@ footer .fbottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14
 .hero .inner{position:relative;z-index:2;padding-bottom:7vh;width:100%}
 .hero h1{font-size:clamp(46px,8.4vw,112px);max-width:13ch;letter-spacing:-.025em;font-weight:500;
   text-shadow:0 2px 40px rgba(18,28,24,.55),0 1px 4px rgba(18,28,24,.4)}
-.hero h1 em{color:var(--sand)}
+.hero h1 em,.hero .sub em{color:var(--sand)}
 .hero .sub{max-width:50ch;margin-top:24px;font-size:17px;color:rgba(246,242,233,.95);
   text-shadow:0 1px 16px rgba(18,28,24,.6)}
 .hero .ctas{margin-top:34px;display:flex;flex-wrap:wrap;gap:14px}
 .hero .eyebrow{color:var(--sand)}.hero .eyebrow::before{background:var(--sand)}
+.hero .proofline{margin-top:24px;font-size:11.5px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;
+  color:rgba(246,242,233,.86);text-shadow:0 1px 12px rgba(18,28,24,.7)}
+@media(max-width:640px){.hero .proofline{font-size:10px;letter-spacing:.12em}}
 .scrollcue{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);z-index:2;
   font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:rgba(246,242,233,.7);
   display:flex;flex-direction:column;align-items:center;gap:8px}
@@ -500,11 +503,12 @@ footer .fbottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14
     <div class="wrap inner">
       <div class="eyebrow">Speaker · Strategist · Storyteller · Host</div>
       <h1>Start over,<br>end better — <em>without</em><br>starting fresh.</h1>
-      <p class="sub">For the leaders who've already won, and are quietly asking <em>"now what?"</em> I guide your next quest, after success.</p>
+      <p class="sub">You already won. Now let's turn <em>"what's next?"</em> into a plan — a new mission, a story worth telling, and the stages to deliver it.</p>
       <div class="ctas">
         <a class="btn btn-sand" data-go="contact">Introduce Yourself <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-        <a class="btn btn-ghost" data-go="work">Ways to Work</a>
+        <a class="btn btn-ghost" data-go="work">See the 3 Ways to Work</a>
       </div>
+      <div class="proofline">70+ countries listening &nbsp;·&nbsp; #1 bestselling co-author &nbsp;·&nbsp; Featured by Oprah, Netflix &amp; SXSW</div>
     </div>
     <div class="scrollcue">Scroll<i></i></div>
   </section>
@@ -565,6 +569,7 @@ footer .fbottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14
           <div class="ring"><svg viewBox="0 0 24 24"><path d="M3 11l18-7-7 18-3-7z"/></svg></div>
           <h3>Deliver</h3><div class="x">your story's message</div><p>To your peers in private, your clients online, and your global audience in press.</p></div>
       </div>
+      <div class="reveal" style="text-align:center;margin-top:52px"><a class="btn btn-sand" data-go="contact">Build Your Plan — Introduce Yourself <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
     </div>
   </section>
   <section class="stats">
